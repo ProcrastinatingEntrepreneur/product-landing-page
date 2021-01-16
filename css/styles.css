@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: url('/images/nasa.jpg') center center fixed;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    display: fixed;
+    top: 0;
+    background: rgba( 4, 230, 251, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+}
+
+#header-img {
+    margin-right: auto;
+    margin-left: 2em;
+    width: 100px;
+    height: 100px;
+}
+
+#nav-bar {
+    justify-self: end;
+    margin-left: auto;
+    margin-right: 5em;
+}
+
+#main {
+    text-align: center;
+}
+
